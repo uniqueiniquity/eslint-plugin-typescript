@@ -20,7 +20,8 @@
     "precommit": "npm test && lint-staged"
   },
   "dependencies": {
-    "requireindex": "~1.1.0"
+    "requireindex": "~1.1.0",
+    "tsutils": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^4.13.1",
@@ -35,6 +36,9 @@
     "prettier": "^1.11.1",
     "typescript": "~2.8.1",
     "typescript-eslint-parser": "^15.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "*"
   },
   "lint-staged": {
     "*.js": [
